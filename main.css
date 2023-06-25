@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #1b9cfc;
+}
+
+.mainConversion{
+    width: 100%;
+    max-width: 350px;
+    padding: 1.5rem;
+    margin: 8rem auto;
+
+}
+.Convertheader{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.convertInput{
+    margin: 0 5rem;
+    margin-bottom: 1rem;
+    align-self: center;
+    padding: .3rem;
+    outline:none;
+    text-indent: 5px;
+    border-radius: .5rem;
+    border: none;
+
+}
+
+ 
+.result{
+    text-align: center;
+    color: #fff200;
+    margin-bottom: 1rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.changeBtn , .convertBtn ,.resetBtn{
+    padding: 10px 30px;
+    color: #fff;
+    background-color:#546de5 ;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.changeBtn:hover , .convertBtn:hover ,.resetBtn:hover{
+    background-color:#0652dd ;
+    transform: scale(1.05);
+}
